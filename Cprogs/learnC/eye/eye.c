@@ -1,8 +1,7 @@
 ﻿#include <stdio.h>
 #include <time.h>
 
-main()
-{
+int main() {
     int user, opt, points = 0, exc, red, red1, a = 0;
     time_t t;
     FILE *fptr;
