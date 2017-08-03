@@ -1,0 +1,21 @@
+#include <stdio.h>
+#define SIZE 4000000000000000000000
+int main() {
+  int i;
+  for(i=0;i<SIZE;i++) {
+    if(cubesolved()) {
+      break;
+    }
+    else {
+      hi();
+    }
+  }
+}
+
+int cubesolved() {
+  return 0;
+}
+
+int hi() {
+  return;
+}

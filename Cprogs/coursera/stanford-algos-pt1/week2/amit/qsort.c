@@ -1,0 +1,83 @@
+#include <stdio.h>
+static int count = 0;
+
+int main() {
+	FILE *fptr;
+        fptr=fopen("./a.txt","r");
+        int intarr[SIZE];
+        int j;
+        for(j=0;j<SIZE;j++) {
+                fscanf(fptr,"%d ",&intarr[j]);
+        }
+	qsort(intarr,SIZE);
+	printf ("count = %d\n",count);
+//	for(j=0;j<SIZE;j++) printf("%d, ",intarr[j]);
+}
+int qsort(int *arr, int n) {
+
+	if(n <= 1) return;
+
+	int i, p;
+	int l=0; int r=n-1;
+
+	p=choosepivot(arr,l,r);
+	i=partition(arr,l,r,p);
+//	printf ("pivot = %d , i = %d\n",p, i);
+	qsort(arr,i);
+	qsort(arr+i+1,r-i);
+
+	count += n-1;
+//	printf ("mini count = %d , n = %d\n",count,n);
+}
+int choosepivot(int *arr,int l, int r) {
+
+	int m = (r - l)/2;
+
+	int lval = arr[l];
+	int rval = arr[r];
+	int mval = arr[m];
+
+	int pivot, temp;
+
+#ifdef FIRST
+	// do nothing;
+#endif
+#ifdef LAST
+	temp = arr[l];
+	arr[l] = arr[r];
+	arr[r] = temp;
+
+#endif
+#ifdef AVG
+	if ((mval-lval)*(mval-rval) < 0) {
+		temp = arr[l];
+		arr[l] = arr[m];
+		arr[m] = temp;
+	}
+	else if ((rval-mval)*(rval-lval) < 0) {
+		temp = arr[l];
+		arr[l] = arr[r];
+		arr[r] = temp;
+	}
+#endif
+	return (arr[l]);
+}
+
+int partition(int *arr, int l, int r,int p) {
+        int i=l+1;
+        int j;
+        int temp;
+        for(j=l+1;j<=r;j++) {
+                if(arr[j]<p) {
+                        temp=arr[j];
+                        arr[j]=arr[i];
+                        arr[i]=temp;
+			i++;
+                }
+        }
+	temp=arr[l];
+	arr[l]=arr[i-1];
+	arr[i-1]=temp;
+	return (i-1);
+}
+

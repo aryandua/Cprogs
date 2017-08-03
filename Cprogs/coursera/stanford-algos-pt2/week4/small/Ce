@@ -1,0 +1,6 @@
+5 = 5 + 0 - 0...5... FOR ARC FROM 1 to 2
+-1 = -1 + 0 - -1...0... FOR ARC FROM 2 to 3
+-8 = -8 + -1 - -9...0... FOR ARC FROM 3 to 4
+2 = 2 + -9 - -7...0... FOR ARC FROM 4 to 5
+10 = 10 + -7 - 0...3... FOR ARC FROM 5 to 6
+-4 = -4 + 0 - -4...0... FOR ARC FROM 6 to 7

@@ -1,0 +1,40 @@
+#! /usr/bin/tclsh
+
+set ifd [open [lindex $argv 0]]
+set size [lindex $argv 1]
+gets $ifd aline
+while {! [eof $ifd]} {
+   set nch [gets $ifd aline]
+   if {$nch >= 0} {
+      set ll2 [list]
+      foreach elem [split $aline] {
+         if {$elem != ""} {
+            lappend ll2 $elem
+         } 
+      }
+      if {[llength $ll2] < 2} {
+         puts "Incorrect clause $aline"
+         exit 1
+      }
+      set val1 [lindex $ll2 0]
+      set val2 [lindex $ll2 1]
+      if {$val1 < 0} {
+         set val3 [expr -$val1 + $size]
+         set val1 [expr $val1 + $size + 1]
+      } else {
+         set val3 [expr -$val1 + $size + 1]
+         set val1 [expr $val1 + $size]
+      }
+      if {$val2 < 0} {
+         set val4 [expr -$val2 + $size]
+         set val2 [expr $val2 + $size + 1]
+      } else {
+         set val4 [expr -$val2 + $size + 1]
+         set val2 [expr $val2 + $size]
+      }
+      puts "$val4 $val1"
+      puts "$val3 $val2"
+   }
+   
+}
+close $ifd

@@ -1,0 +1,75 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#define SIZE 5
+#define SIZE2 4
+//#define SIZE2 19
+int inp[SIZE];
+int main() {
+  read_it();
+  tidy();
+}
+int read_it() {
+  FILE *fptr;
+  fptr = fopen("./a.txt", "r");
+  int i,sc;
+  fscanf(fptr, "%d",&sc);
+  if(sc != SIZE) {
+    printf("ERROR");
+    exit(1);
+  }
+  for(i=0;i<SIZE;i++) {
+    fscanf(fptr, "%d",&inp[i]);
+  }
+}
+
+int tidy() {
+  int i,j;
+  int last_tidy[SIZE];
+  FILE *fptr2;
+  fptr2 = fopen("./output.txt", "w");
+  //for loop for all input (i)
+       //for loop for all numbers till inp[i] (j)
+            //check if j is tidy
+                //last_tidy[i] = j
+  for(i=0;i<SIZE;i++) {
+    num = inp[i];
+    printf("%d\n",i+1);
+    for(j=num;j>=0;j--) {
+      if(istidy(j)) {
+	last_tidy[i] = j;
+      }
+    }
+  }
+  for(i=0;i<SIZE;i++)
+    fprintf(fptr2, "Case #%d: %d\n",i+1,last_tidy[i]);
+}
+
+int istidy(int s) {
+  int i;
+  int arr[SIZE2];
+  getdigits(s, arr,SIZE2);
+  for(i=0;i<SIZE2;i++) {
+    if(arr[i] > arr[i+1])
+      return 0;
+  }
+  return 1;
+}
+
+istidy(int num, int *ptr, int numofdigits) {
+  int i;
+  int a,b,c,cprev;
+  a = (num/pow(10,0));
+  b = (num/pow(10,1));
+  cprev = a - (b*10);
+  for(i=1;i<numofdigits;i++) {
+    a = (num/pow(10,i));
+    b = (num/pow(10,i+1));
+    c = a - (b*10);
+    ptr[numofdigits-i] = c;
+    if(c > cprev) 
+      return 0;
+    cprev = c;
+  }
+  return 1;
+}

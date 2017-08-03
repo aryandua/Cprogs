@@ -1,0 +1,33 @@
+[?1049h[?1h=[1;37r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[37;1H"median.c" 184 lines, 3890 characters[1;1H#include <stdio.h>
+#define SIZE 10000
+int hlow[SIZE/2+1];
+int h_high[SIZE/2+1];
+int elems_in_high=0;
+int elems_in_low=0;
+int mod;
+void insert_elem(int which, int number);
+int main() {
+  //("entered main\n");
+  initialize();
+  read_compute();
+  return 1;
+}
+int read_compute() {
+  int i,j,r,a,total=0;
+  FILE *fptr;
+  int max_of_low;
+  fptr=fopen("./a.txt", "r");
+  for(i=0;i<SIZE;i++){
+    fscanf(fptr, " %d\n",&j);
+    max_of_low=hlow[0];
+    if(max_of_low>=j) {[24;7Hinsert_elem(0,j);[25;7Helems_in_low++;
+    }
+    else {[28;7Hinsert_elem(1,j);[29;7Helems_in_high++;
+    }
+    if((elems_in_high - elems_in_low) >= 2) {[32;7Hr=extract_min(j);[33;7Hinsert_elem(0 ,r);[34;7Helems_in_low++;[35;7Helems_in_high--;
+    }[1;1H[?12l[?25h[?25l[37;1HType  :quit<Enter>  to exit Vim[37;32H[K[1;1H[?12l[?25h[?25l[?12l[?25h[?25l[1;36r[1;1H[18M[1;37r[19;5Helse if(elems_in_low-elems_in_high>=2) {[20;7Hr=extract_max();[21;7Hinsert_elem(1,r);[22;7Helems_in_high++;[23;7Helems_in_low--;
+    }
+    if(elems_in_low==elems_in_high) { //elems are even[26;7Hmod=hlow[0];
+    }
+    else {[29;7Hif(elems_in_low>elems_in_high) {[30;9Hmod=hlow[0];[31;7H}[32;7Helse {[33;9Hmod=h_high[0];[34;7H}[36;5H}[37;1H[K[1;3H[?12l[?25h[37;1H
+[?1l>[?1049l

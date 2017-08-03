@@ -1,0 +1,1501 @@
+v = 1 , ecount = 24
+v = 2 , ecount = 23
+v = 3 , ecount = 26
+v = 4 , ecount = 26
+v = 5 , ecount = 21
+v = 6 , ecount = 21
+v = 7 , ecount = 21
+v = 8 , ecount = 27
+v = 9 , ecount = 21
+v = 10 , ecount = 25
+v = 11 , ecount = 21
+v = 12 , ecount = 26
+v = 13 , ecount = 34
+v = 14 , ecount = 20
+v = 15 , ecount = 29
+v = 16 , ecount = 27
+v = 17 , ecount = 28
+v = 18 , ecount = 25
+v = 19 , ecount = 21
+v = 20 , ecount = 24
+v = 21 , ecount = 27
+v = 22 , ecount = 27
+v = 23 , ecount = 20
+v = 24 , ecount = 25
+v = 25 , ecount = 24
+v = 26 , ecount = 22
+v = 27 , ecount = 25
+v = 28 , ecount = 26
+v = 29 , ecount = 26
+v = 30 , ecount = 21
+v = 31 , ecount = 21
+v = 32 , ecount = 29
+v = 33 , ecount = 21
+v = 34 , ecount = 20
+v = 35 , ecount = 22
+v = 36 , ecount = 31
+v = 37 , ecount = 34
+v = 38 , ecount = 21
+v = 39 , ecount = 31
+v = 40 , ecount = 20
+v = 41 , ecount = 31
+v = 42 , ecount = 24
+v = 43 , ecount = 28
+v = 44 , ecount = 22
+v = 45 , ecount = 25
+v = 46 , ecount = 21
+v = 47 , ecount = 28
+v = 48 , ecount = 28
+v = 49 , ecount = 20
+v = 50 , ecount = 24
+v = 51 , ecount = 20
+v = 52 , ecount = 31
+v = 53 , ecount = 29
+v = 54 , ecount = 20
+v = 55 , ecount = 22
+v = 56 , ecount = 30
+v = 57 , ecount = 21
+v = 58 , ecount = 31
+v = 59 , ecount = 20
+v = 60 , ecount = 24
+v = 61 , ecount = 20
+v = 62 , ecount = 29
+v = 63 , ecount = 22
+v = 64 , ecount = 21
+v = 65 , ecount = 25
+v = 66 , ecount = 23
+v = 67 , ecount = 20
+v = 68 , ecount = 26
+v = 69 , ecount = 22
+v = 70 , ecount = 20
+v = 71 , ecount = 26
+v = 72 , ecount = 24
+v = 73 , ecount = 28
+v = 74 , ecount = 22
+v = 75 , ecount = 30
+v = 76 , ecount = 30
+v = 77 , ecount = 27
+v = 78 , ecount = 23
+v = 79 , ecount = 32
+v = 80 , ecount = 34
+v = 81 , ecount = 25
+v = 82 , ecount = 27
+v = 83 , ecount = 20
+v = 84 , ecount = 27
+v = 85 , ecount = 22
+v = 86 , ecount = 27
+v = 87 , ecount = 28
+v = 88 , ecount = 24
+v = 89 , ecount = 23
+v = 90 , ecount = 23
+v = 91 , ecount = 31
+v = 92 , ecount = 26
+v = 93 , ecount = 20
+v = 94 , ecount = 20
+v = 95 , ecount = 25
+v = 96 , ecount = 22
+v = 97 , ecount = 20
+v = 98 , ecount = 26
+v = 99 , ecount = 26
+v = 100 , ecount = 23
+v = 101 , ecount = 26
+v = 102 , ecount = 27
+v = 103 , ecount = 24
+v = 104 , ecount = 25
+v = 105 , ecount = 22
+v = 106 , ecount = 20
+v = 107 , ecount = 31
+v = 108 , ecount = 30
+v = 109 , ecount = 35
+v = 110 , ecount = 24
+v = 111 , ecount = 25
+v = 112 , ecount = 22
+v = 113 , ecount = 28
+v = 114 , ecount = 26
+v = 115 , ecount = 20
+v = 116 , ecount = 35
+v = 117 , ecount = 24
+v = 118 , ecount = 26
+v = 119 , ecount = 24
+v = 120 , ecount = 26
+v = 121 , ecount = 23
+v = 122 , ecount = 34
+v = 123 , ecount = 31
+v = 124 , ecount = 21
+v = 125 , ecount = 24
+v = 126 , ecount = 22
+v = 127 , ecount = 26
+v = 128 , ecount = 21
+v = 129 , ecount = 24
+v = 130 , ecount = 26
+v = 131 , ecount = 30
+v = 132 , ecount = 22
+v = 133 , ecount = 20
+v = 134 , ecount = 30
+v = 135 , ecount = 20
+v = 136 , ecount = 20
+v = 137 , ecount = 25
+v = 138 , ecount = 22
+v = 139 , ecount = 25
+v = 140 , ecount = 22
+v = 141 , ecount = 33
+v = 142 , ecount = 26
+v = 143 , ecount = 24
+v = 144 , ecount = 28
+v = 145 , ecount = 23
+v = 146 , ecount = 24
+v = 147 , ecount = 23
+v = 148 , ecount = 30
+v = 149 , ecount = 31
+v = 150 , ecount = 20
+v = 151 , ecount = 22
+v = 152 , ecount = 21
+v = 153 , ecount = 29
+v = 154 , ecount = 26
+v = 155 , ecount = 27
+v = 156 , ecount = 31
+v = 157 , ecount = 20
+v = 158 , ecount = 25
+v = 159 , ecount = 27
+v = 160 , ecount = 28
+v = 161 , ecount = 32
+v = 162 , ecount = 21
+v = 163 , ecount = 28
+v = 164 , ecount = 30
+v = 165 , ecount = 32
+v = 166 , ecount = 25
+v = 167 , ecount = 27
+v = 168 , ecount = 26
+v = 169 , ecount = 28
+v = 170 , ecount = 20
+v = 171 , ecount = 31
+v = 172 , ecount = 20
+v = 173 , ecount = 27
+v = 174 , ecount = 21
+v = 175 , ecount = 31
+v = 176 , ecount = 21
+v = 177 , ecount = 26
+v = 178 , ecount = 33
+v = 179 , ecount = 29
+v = 180 , ecount = 23
+v = 181 , ecount = 23
+v = 182 , ecount = 25
+v = 183 , ecount = 22
+v = 184 , ecount = 30
+v = 185 , ecount = 31
+v = 186 , ecount = 30
+v = 187 , ecount = 27
+v = 188 , ecount = 30
+v = 189 , ecount = 26
+v = 190 , ecount = 23
+v = 191 , ecount = 24
+v = 192 , ecount = 20
+v = 193 , ecount = 39
+v = 194 , ecount = 20
+v = 195 , ecount = 24
+v = 196 , ecount = 20
+v = 197 , ecount = 26
+v = 198 , ecount = 20
+v = 199 , ecount = 22
+v = 200 , ecount = 24
+Vertex remaining = 200
+Combining 184 and 48
+Vertex remaining = 199
+Combining 87 and 80
+Vertex remaining = 198
+Combining 178 and 149
+Vertex remaining = 197
+Combining 116 and 184
+Vertex remaining = 196
+Combining 194 and 123
+Vertex remaining = 195
+Combining 136 and 165
+Vertex remaining = 194
+Combining 187 and 24
+Vertex remaining = 193
+Combining 93 and 68
+Vertex remaining = 192
+Combining 50 and 136
+Vertex remaining = 191
+Combining 22 and 156
+Vertex remaining = 190
+Combining 163 and 177
+Vertex remaining = 189
+Combining 28 and 134
+Vertex remaining = 188
+Combining 91 and 126
+Vertex remaining = 187
+Combining 60 and 58
+Vertex remaining = 186
+Combining 164 and 185
+Vertex remaining = 185
+Combining 127 and 37
+Vertex remaining = 184
+Combining 141 and 109
+Vertex remaining = 183
+Combining 27 and 22
+Vertex remaining = 182
+Combining 173 and 28
+Vertex remaining = 181
+Combining 137 and 27
+Vertex remaining = 180
+Combining 12 and 161
+Vertex remaining = 179
+Combining 169 and 163
+Vertex remaining = 178
+Combining 168 and 36
+Vertex remaining = 177
+Combining 30 and 50
+Vertex remaining = 176
+Combining 183 and 30
+Vertex remaining = 175
+Combining 131 and 193
+Vertex remaining = 174
+Combining 63 and 116
+Vertex remaining = 173
+Combining 124 and 131
+vertex 67 is already combined
+vertex 135 is already combined
+Vertex remaining = 172
+Combining 130 and 186
+Vertex remaining = 171
+Combining 3 and 63
+Vertex remaining = 170
+Combining 23 and 91
+Vertex remaining = 169
+Combining 59 and 130
+Vertex remaining = 168
+Combining 70 and 183
+Vertex remaining = 167
+Combining 168 and 169
+Vertex remaining = 166
+Combining 194 and 168
+Vertex remaining = 165
+Combining 57 and 79
+Vertex remaining = 164
+Combining 12 and 141
+Vertex remaining = 163
+Combining 43 and 70
+vertex 29 is already combined
+Vertex remaining = 162
+Combining 174 and 137
+vertex 21 is already combined
+Vertex remaining = 161
+Combining 120 and 164
+vertex 184 is already combined
+Vertex remaining = 160
+Combining 138 and 173
+Vertex remaining = 159
+Combining 199 and 194
+Vertex remaining = 158
+Combining 125 and 127
+vertex 115 is already combined
+Vertex remaining = 157
+Combining 171 and 34
+Vertex remaining = 156
+Combining 14 and 23
+vertex 126 is already combined
+Vertex remaining = 155
+Combining 92 and 12
+Vertex remaining = 154
+Combining 181 and 43
+Vertex remaining = 153
+Combining 157 and 3
+Vertex remaining = 152
+Combining 74 and 88
+vertex 62 is already combined
+Vertex remaining = 151
+Combining 171 and 60
+Vertex remaining = 150
+Combining 197 and 157
+Vertex remaining = 149
+Combining 82 and 92
+Vertex remaining = 148
+Combining 106 and 199
+vertex 125 is already combined
+Vertex remaining = 147
+Combining 85 and 174
+Vertex remaining = 146
+Combining 128 and 197
+vertex 136 is already combined
+Vertex remaining = 145
+Combining 106 and 128
+Vertex remaining = 144
+Combining 47 and 106
+vertex 129 is already combined
+Vertex remaining = 143
+Combining 114 and 47
+vertex 57 is already combined
+Vertex remaining = 142
+Combining 125 and 86
+Vertex remaining = 141
+Combining 96 and 171
+vertex 182 is already combined
+Vertex remaining = 140
+Combining 146 and 178
+Vertex remaining = 139
+Combining 15 and 146
+vertex 167 is already combined
+Vertex remaining = 138
+Combining 35 and 57
+vertex 164 is already combined
+Vertex remaining = 137
+Combining 44 and 188
+Vertex remaining = 136
+Combining 151 and 125
+vertex 87 is already combined
+Vertex remaining = 135
+Combining 9 and 14
+Vertex remaining = 134
+Combining 77 and 187
+Vertex remaining = 133
+Combining 179 and 10
+Vertex remaining = 132
+Combining 189 and 181
+vertex 184 is already combined
+Vertex remaining = 131
+Combining 4 and 9
+Vertex remaining = 130
+Combining 52 and 151
+Vertex remaining = 129
+Combining 155 and 4
+Vertex remaining = 128
+Combining 200 and 15
+Vertex remaining = 127
+Combining 133 and 52
+Vertex remaining = 126
+Combining 61 and 44
+Vertex remaining = 125
+Combining 77 and 114
+vertex 168 is already combined
+Vertex remaining = 124
+Combining 140 and 120
+Vertex remaining = 123
+Combining 13 and 82
+vertex 26 is already combined
+vertex 186 is already combined
+Vertex remaining = 122
+Combining 95 and 77
+Vertex remaining = 121
+Combining 140 and 96
+Vertex remaining = 120
+Combining 196 and 122
+vertex 170 is already combined
+Vertex remaining = 119
+Combining 35 and 140
+Vertex remaining = 118
+Combining 179 and 13
+vertex 67 is already combined
+Vertex remaining = 117
+Combining 2 and 95
+Vertex remaining = 116
+Combining 98 and 87
+Vertex remaining = 115
+Combining 103 and 179
+Vertex remaining = 114
+Combining 118 and 124
+Vertex remaining = 113
+Combining 93 and 99
+Vertex remaining = 112
+Combining 53 and 85
+vertex 156 is already combined
+Vertex remaining = 111
+Combining 102 and 155
+Vertex remaining = 110
+Combining 81 and 133
+vertex 86 is already combined
+Vertex remaining = 109
+Combining 42 and 200
+Vertex remaining = 108
+Combining 66 and 61
+Vertex remaining = 107
+Combining 90 and 2
+Vertex remaining = 106
+Combining 45 and 53
+Vertex remaining = 105
+Combining 20 and 35
+Vertex remaining = 104
+Combining 41 and 90
+vertex 129 is already combined
+Vertex remaining = 103
+Combining 32 and 45
+Vertex remaining = 102
+Combining 118 and 32
+Vertex remaining = 101
+Combining 98 and 20
+Vertex remaining = 100
+Combining 172 and 98
+vertex 81 is already combined
+Vertex remaining = 99
+Combining 76 and 81
+Vertex remaining = 98
+Combining 110 and 189
+vertex 127 is already combined
+vertex 167 is already combined
+vertex 56 is already combined
+vertex 97 is already combined
+Vertex remaining = 97
+Combining 154 and 138
+vertex 186 is already combined
+Vertex remaining = 96
+Combining 166 and 118
+Vertex remaining = 95
+Combining 107 and 102
+Vertex remaining = 94
+Combining 84 and 42
+vertex 19 is already combined
+Vertex remaining = 93
+Combining 25 and 166
+Vertex remaining = 92
+Combining 129 and 110
+Vertex remaining = 91
+Combining 72 and 103
+vertex 132 is already combined
+vertex 29 is already combined
+Vertex remaining = 90
+Combining 104 and 154
+vertex 19 is already combined
+Vertex remaining = 89
+Combining 71 and 25
+vertex 168 is already combined
+vertex 108 is already combined
+vertex 115 is already combined
+vertex 140 is already combined
+Vertex remaining = 88
+Combining 150 and 84
+vertex 196 is already combined
+vertex 123 is already combined
+Vertex remaining = 87
+Combining 19 and 71
+Vertex remaining = 86
+Combining 46 and 19
+vertex 46 is already combined
+vertex 51 is already combined
+vertex 121 is already combined
+vertex 155 is already combined
+Vertex remaining = 85
+Combining 180 and 41
+Vertex remaining = 84
+Combining 89 and 76
+vertex 164 is already combined
+Vertex remaining = 83
+Combining 29 and 180
+vertex 41 is already combined
+vertex 150 is already combined
+vertex 193 is already combined
+Vertex remaining = 82
+Combining 101 and 129
+vertex 34 is already combined
+vertex 164 is already combined
+vertex 124 is already combined
+Vertex remaining = 81
+Combining 115 and 172
+vertex 187 is already combined
+vertex 56 is already combined
+Vertex remaining = 80
+Combining 144 and 107
+vertex 91 is already combined
+vertex 27 is already combined
+vertex 165 is already combined
+vertex 59 is already combined
+vertex 136 is already combined
+Vertex remaining = 79
+Combining 33 and 29
+Vertex remaining = 78
+Combining 152 and 104
+Vertex remaining = 77
+Combining 38 and 46
+vertex 28 is already combined
+vertex 75 is already combined
+Vertex remaining = 76
+Combining 8 and 115
+Vertex remaining = 75
+Combining 75 and 144
+vertex 121 is already combined
+Vertex remaining = 74
+Combining 59 and 33
+Vertex remaining = 73
+Combining 196 and 38
+vertex 29 is already combined
+vertex 37 is already combined
+vertex 35 is already combined
+vertex 193 is already combined
+vertex 18 is already combined
+vertex 28 is already combined
+vertex 143 is already combined
+vertex 11 is already combined
+vertex 128 is already combined
+vertex 129 is already combined
+vertex 176 is already combined
+Vertex remaining = 72
+Combining 5 and 196
+vertex 43 is already combined
+vertex 163 is already combined
+vertex 13 is already combined
+Vertex remaining = 71
+Combining 139 and 8
+Vertex remaining = 70
+Combining 7 and 5
+vertex 40 is already combined
+Vertex remaining = 69
+Combining 105 and 101
+vertex 18 is already combined
+vertex 128 is already combined
+Vertex remaining = 68
+Combining 89 and 7
+Vertex remaining = 67
+Combining 170 and 72
+vertex 117 is already combined
+vertex 117 is already combined
+vertex 196 is already combined
+vertex 124 is already combined
+vertex 143 is already combined
+vertex 70 is already combined
+vertex 183 is already combined
+vertex 90 is already combined
+Vertex remaining = 66
+Combining 100 and 139
+vertex 172 is already combined
+vertex 125 is already combined
+vertex 44 is already combined
+Vertex remaining = 65
+Combining 191 and 89
+vertex 105 is already combined
+vertex 139 is already combined
+vertex 154 is already combined
+vertex 186 is already combined
+vertex 69 is already combined
+Vertex remaining = 64
+Combining 83 and 17
+Vertex remaining = 63
+Combining 143 and 105
+Vertex remaining = 62
+Combining 65 and 59
+Vertex remaining = 61
+Combining 198 and 75
+Vertex remaining = 60
+Combining 108 and 191
+vertex 155 is already combined
+vertex 4 is already combined
+vertex 148 is already combined
+vertex 11 is already combined
+vertex 22 is already combined
+vertex 28 is already combined
+Vertex remaining = 59
+Combining 100 and 150
+vertex 143 is already combined
+Vertex remaining = 58
+Combining 147 and 65
+vertex 168 is already combined
+vertex 140 is already combined
+vertex 22 is already combined
+Vertex remaining = 57
+Combining 112 and 108
+Vertex remaining = 56
+Combining 11 and 147
+Vertex remaining = 55
+Combining 6 and 198
+vertex 1 is already combined
+Vertex remaining = 54
+Combining 62 and 112
+vertex 130 is already combined
+vertex 78 is already combined
+vertex 105 is already combined
+Vertex remaining = 53
+Combining 121 and 62
+vertex 136 is already combined
+vertex 44 is already combined
+vertex 26 is already combined
+vertex 122 is already combined
+Vertex remaining = 52
+Combining 66 and 11
+vertex 108 is already combined
+vertex 16 is already combined
+Vertex remaining = 51
+Combining 83 and 170
+vertex 58 is already combined
+vertex 124 is already combined
+vertex 37 is already combined
+vertex 62 is already combined
+vertex 24 is already combined
+Vertex remaining = 50
+Combining 1 and 121
+vertex 36 is already combined
+vertex 52 is already combined
+Vertex remaining = 49
+Combining 100 and 1
+vertex 179 is already combined
+vertex 150 is already combined
+Vertex remaining = 48
+Combining 69 and 6
+vertex 71 is already combined
+vertex 173 is already combined
+Vertex remaining = 47
+Combining 132 and 100
+vertex 81 is already combined
+vertex 130 is already combined
+vertex 133 is already combined
+vertex 94 is already combined
+vertex 60 is already combined
+vertex 163 is already combined
+vertex 199 is already combined
+Vertex remaining = 46
+Combining 182 and 152
+vertex 99 is already combined
+vertex 196 is already combined
+Vertex remaining = 45
+Combining 160 and 69
+vertex 173 is already combined
+vertex 13 is already combined
+vertex 68 is already combined
+vertex 190 is already combined
+vertex 95 is already combined
+vertex 126 is already combined
+Vertex remaining = 44
+Combining 67 and 160
+vertex 84 is already combined
+vertex 140 is already combined
+vertex 90 is already combined
+vertex 84 is already combined
+vertex 176 is already combined
+Vertex remaining = 43
+Combining 143 and 83
+vertex 136 is already combined
+vertex 107 is already combined
+vertex 45 is already combined
+vertex 156 is already combined
+vertex 179 is already combined
+vertex 18 is already combined
+vertex 87 is already combined
+vertex 12 is already combined
+vertex 148 is already combined
+vertex 172 is already combined
+vertex 59 is already combined
+vertex 9 is already combined
+vertex 136 is already combined
+vertex 10 is already combined
+Vertex remaining = 42
+Combining 143 and 66
+vertex 187 is already combined
+vertex 6 is already combined
+vertex 101 is already combined
+vertex 113 is already combined
+vertex 172 is already combined
+vertex 121 is already combined
+Vertex remaining = 41
+Combining 56 and 132
+vertex 19 is already combined
+vertex 199 is already combined
+vertex 121 is already combined
+vertex 104 is already combined
+vertex 139 is already combined
+vertex 11 is already combined
+vertex 140 is already combined
+vertex 67 is already combined
+vertex 105 is already combined
+vertex 28 is already combined
+vertex 127 is already combined
+vertex 150 is already combined
+vertex 184 is already combined
+vertex 58 is already combined
+vertex 120 is already combined
+vertex 24 is already combined
+vertex 22 is already combined
+vertex 69 is already combined
+vertex 196 is already combined
+vertex 81 is already combined
+Vertex remaining = 40
+Combining 31 and 56
+vertex 84 is already combined
+Vertex remaining = 39
+Combining 93 and 31
+vertex 172 is already combined
+Vertex remaining = 38
+Combining 73 and 67
+Vertex remaining = 37
+Combining 51 and 143
+Vertex remaining = 36
+Combining 26 and 93
+vertex 185 is already combined
+vertex 22 is already combined
+vertex 99 is already combined
+vertex 40 is already combined
+vertex 42 is already combined
+vertex 98 is already combined
+vertex 113 is already combined
+vertex 98 is already combined
+vertex 190 is already combined
+vertex 124 is already combined
+vertex 190 is already combined
+vertex 9 is already combined
+Vertex remaining = 35
+Combining 182 and 51
+vertex 19 is already combined
+vertex 136 is already combined
+vertex 132 is already combined
+vertex 155 is already combined
+Vertex remaining = 34
+Combining 195 and 26
+vertex 4 is already combined
+vertex 179 is already combined
+vertex 169 is already combined
+Vertex remaining = 33
+Combining 74 and 182
+vertex 176 is already combined
+vertex 50 is already combined
+vertex 55 is already combined
+vertex 60 is already combined
+vertex 142 is already combined
+vertex 179 is already combined
+vertex 84 is already combined
+vertex 193 is already combined
+vertex 5 is already combined
+vertex 21 is already combined
+vertex 167 is already combined
+vertex 104 is already combined
+vertex 13 is already combined
+Vertex remaining = 32
+Combining 162 and 74
+vertex 154 is already combined
+vertex 126 is already combined
+vertex 59 is already combined
+Vertex remaining = 31
+Combining 145 and 195
+vertex 2 is already combined
+vertex 2 is already combined
+vertex 106 is already combined
+vertex 184 is already combined
+vertex 21 is already combined
+vertex 42 is already combined
+vertex 68 is already combined
+vertex 128 is already combined
+Vertex remaining = 30
+Combining 190 and 162
+Vertex remaining = 29
+Combining 73 and 145
+vertex 108 is already combined
+Vertex remaining = 28
+Combining 159 and 190
+vertex 98 is already combined
+vertex 36 is already combined
+vertex 8 is already combined
+vertex 153 is already combined
+Vertex remaining = 27
+Combining 49 and 159
+vertex 103 is already combined
+vertex 133 is already combined
+vertex 133 is already combined
+Vertex remaining = 26
+Combining 49 and 148
+vertex 90 is already combined
+vertex 154 is already combined
+vertex 167 is already combined
+vertex 146 is already combined
+vertex 168 is already combined
+vertex 129 is already combined
+vertex 100 is already combined
+vertex 46 is already combined
+vertex 188 is already combined
+vertex 197 is already combined
+vertex 49 is already combined
+vertex 190 is already combined
+vertex 103 is already combined
+vertex 33 is already combined
+vertex 163 is already combined
+vertex 97 is already combined
+Vertex remaining = 25
+Combining 54 and 49
+vertex 92 is already combined
+vertex 86 is already combined
+vertex 125 is already combined
+Vertex remaining = 24
+Combining 153 and 54
+vertex 196 is already combined
+Vertex remaining = 23
+Combining 176 and 153
+vertex 188 is already combined
+Vertex remaining = 22
+Combining 158 and 73
+vertex 129 is already combined
+vertex 36 is already combined
+vertex 60 is already combined
+vertex 14 is already combined
+vertex 121 is already combined
+vertex 60 is already combined
+vertex 104 is already combined
+vertex 28 is already combined
+vertex 27 is already combined
+vertex 50 is already combined
+vertex 148 is already combined
+vertex 156 is already combined
+vertex 102 is already combined
+vertex 194 is already combined
+vertex 97 is already combined
+vertex 99 is already combined
+vertex 43 is already combined
+Vertex remaining = 21
+Combining 40 and 158
+vertex 2 is already combined
+vertex 28 is already combined
+vertex 3 is already combined
+vertex 100 is already combined
+vertex 81 is already combined
+vertex 47 is already combined
+vertex 138 is already combined
+vertex 159 is already combined
+vertex 151 is already combined
+vertex 135 is already combined
+Vertex remaining = 20
+Combining 135 and 40
+vertex 139 is already combined
+vertex 92 is already combined
+Vertex remaining = 19
+Combining 16 and 176
+vertex 127 is already combined
+vertex 104 is already combined
+vertex 29 is already combined
+vertex 49 is already combined
+vertex 164 is already combined
+vertex 85 is already combined
+vertex 29 is already combined
+vertex 143 is already combined
+vertex 135 is already combined
+vertex 177 is already combined
+vertex 100 is already combined
+Vertex remaining = 18
+Combining 39 and 135
+vertex 171 is already combined
+vertex 149 is already combined
+vertex 89 is already combined
+vertex 167 is already combined
+vertex 188 is already combined
+vertex 92 is already combined
+vertex 195 is already combined
+vertex 143 is already combined
+vertex 144 is already combined
+vertex 29 is already combined
+vertex 190 is already combined
+vertex 82 is already combined
+vertex 140 is already combined
+Vertex remaining = 17
+Combining 142 and 16
+vertex 169 is already combined
+vertex 26 is already combined
+vertex 32 is already combined
+vertex 61 is already combined
+vertex 42 is already combined
+vertex 160 is already combined
+vertex 117 is already combined
+vertex 23 is already combined
+vertex 161 is already combined
+vertex 81 is already combined
+vertex 109 is already combined
+vertex 190 is already combined
+vertex 25 is already combined
+vertex 196 is already combined
+vertex 167 is already combined
+Vertex remaining = 16
+Combining 78 and 39
+vertex 34 is already combined
+vertex 90 is already combined
+vertex 26 is already combined
+vertex 124 is already combined
+vertex 57 is already combined
+vertex 14 is already combined
+vertex 168 is already combined
+vertex 5 is already combined
+vertex 158 is already combined
+Vertex remaining = 15
+Combining 113 and 78
+vertex 186 is already combined
+vertex 100 is already combined
+vertex 146 is already combined
+vertex 126 is already combined
+vertex 194 is already combined
+Vertex remaining = 14
+Combining 117 and 142
+vertex 152 is already combined
+vertex 178 is already combined
+vertex 129 is already combined
+vertex 146 is already combined
+vertex 90 is already combined
+vertex 47 is already combined
+vertex 170 is already combined
+vertex 51 is already combined
+vertex 80 is already combined
+vertex 31 is already combined
+vertex 193 is already combined
+vertex 57 is already combined
+vertex 27 is already combined
+Vertex remaining = 13
+Combining 113 and 64
+vertex 86 is already combined
+vertex 14 is already combined
+vertex 155 is already combined
+Vertex remaining = 12
+Combining 113 and 55
+vertex 90 is already combined
+vertex 12 is already combined
+vertex 79 is already combined
+vertex 10 is already combined
+vertex 169 is already combined
+vertex 189 is already combined
+vertex 74 is already combined
+vertex 155 is already combined
+vertex 41 is already combined
+Vertex remaining = 11
+Combining 21 and 117
+vertex 33 is already combined
+vertex 187 is already combined
+vertex 88 is already combined
+vertex 138 is already combined
+Vertex remaining = 10
+Combining 167 and 21
+vertex 170 is already combined
+vertex 84 is already combined
+vertex 56 is already combined
+Vertex remaining = 9
+Combining 18 and 113
+vertex 6 is already combined
+vertex 60 is already combined
+vertex 49 is already combined
+vertex 37 is already combined
+vertex 5 is already combined
+vertex 59 is already combined
+Vertex remaining = 8
+Combining 18 and 175
+Vertex remaining = 7
+Combining 119 and 18
+vertex 145 is already combined
+vertex 183 is already combined
+vertex 73 is already combined
+vertex 58 is already combined
+vertex 73 is already combined
+vertex 37 is already combined
+vertex 89 is already combined
+vertex 83 is already combined
+vertex 7 is already combined
+vertex 78 is already combined
+vertex 157 is already combined
+vertex 114 is already combined
+vertex 71 is already combined
+vertex 129 is already combined
+vertex 100 is already combined
+vertex 59 is already combined
+vertex 18 is already combined
+vertex 38 is already combined
+vertex 25 is already combined
+vertex 188 is already combined
+vertex 74 is already combined
+vertex 33 is already combined
+vertex 157 is already combined
+vertex 81 is already combined
+Vertex remaining = 6
+Combining 94 and 167
+vertex 158 is already combined
+vertex 70 is already combined
+vertex 99 is already combined
+vertex 17 is already combined
+vertex 39 is already combined
+vertex 169 is already combined
+vertex 163 is already combined
+vertex 22 is already combined
+vertex 194 is already combined
+vertex 173 is already combined
+vertex 47 is already combined
+vertex 31 is already combined
+vertex 62 is already combined
+vertex 82 is already combined
+vertex 190 is already combined
+vertex 92 is already combined
+Vertex remaining = 5
+Combining 192 and 94
+vertex 57 is already combined
+vertex 115 is already combined
+vertex 121 is already combined
+vertex 157 is already combined
+vertex 174 is already combined
+vertex 91 is already combined
+vertex 147 is already combined
+vertex 151 is already combined
+vertex 31 is already combined
+vertex 21 is already combined
+vertex 137 is already combined
+vertex 140 is already combined
+vertex 54 is already combined
+vertex 30 is already combined
+vertex 98 is already combined
+vertex 125 is already combined
+vertex 81 is already combined
+vertex 116 is already combined
+vertex 116 is already combined
+vertex 2 is already combined
+vertex 31 is already combined
+vertex 139 is already combined
+vertex 196 is already combined
+vertex 4 is already combined
+vertex 138 is already combined
+vertex 180 is already combined
+vertex 18 is already combined
+vertex 21 is already combined
+vertex 170 is already combined
+vertex 62 is already combined
+vertex 12 is already combined
+vertex 179 is already combined
+vertex 177 is already combined
+vertex 85 is already combined
+vertex 136 is already combined
+vertex 104 is already combined
+vertex 176 is already combined
+vertex 83 is already combined
+vertex 7 is already combined
+vertex 159 is already combined
+vertex 57 is already combined
+vertex 144 is already combined
+vertex 99 is already combined
+vertex 111 is already combined
+vertex 127 is already combined
+vertex 150 is already combined
+vertex 36 is already combined
+vertex 160 is already combined
+vertex 18 is already combined
+vertex 105 is already combined
+vertex 163 is already combined
+vertex 49 is already combined
+vertex 44 is already combined
+vertex 111 is already combined
+vertex 5 is already combined
+vertex 134 is already combined
+vertex 91 is already combined
+vertex 175 is already combined
+vertex 155 is already combined
+vertex 14 is already combined
+vertex 189 is already combined
+vertex 168 is already combined
+vertex 193 is already combined
+Vertex remaining = 4
+Combining 119 and 97
+vertex 5 is already combined
+vertex 82 is already combined
+vertex 22 is already combined
+vertex 182 is already combined
+vertex 117 is already combined
+vertex 30 is already combined
+vertex 93 is already combined
+vertex 174 is already combined
+vertex 126 is already combined
+vertex 193 is already combined
+vertex 86 is already combined
+vertex 53 is already combined
+vertex 143 is already combined
+vertex 74 is already combined
+vertex 14 is already combined
+vertex 113 is already combined
+vertex 179 is already combined
+vertex 177 is already combined
+vertex 162 is already combined
+vertex 175 is already combined
+vertex 88 is already combined
+vertex 119 is already combined
+Vertex remaining = 3
+Combining 111 and 192
+v = 1 , ecount = 0
+  edges = 
+v = 2 , ecount = 0
+  edges = 
+v = 3 , ecount = 0
+  edges = 
+v = 4 , ecount = 0
+  edges = 
+v = 5 , ecount = 0
+  edges = 
+v = 6 , ecount = 0
+  edges = 
+v = 7 , ecount = 0
+  edges = 
+v = 8 , ecount = 0
+  edges = 
+v = 9 , ecount = 0
+  edges = 
+v = 10 , ecount = 0
+  edges = 
+v = 11 , ecount = 0
+  edges = 
+v = 12 , ecount = 0
+  edges = 
+v = 13 , ecount = 0
+  edges = 
+v = 14 , ecount = 0
+  edges = 
+v = 15 , ecount = 0
+  edges = 
+v = 16 , ecount = 0
+  edges = 
+v = 17 , ecount = 0
+  edges = 
+v = 18 , ecount = 0
+  edges = 
+v = 19 , ecount = 0
+  edges = 
+v = 20 , ecount = 0
+  edges = 
+v = 21 , ecount = 0
+  edges = 
+v = 22 , ecount = 0
+  edges = 
+v = 23 , ecount = 0
+  edges = 
+v = 24 , ecount = 0
+  edges = 
+v = 25 , ecount = 0
+  edges = 
+v = 26 , ecount = 0
+  edges = 
+v = 27 , ecount = 0
+  edges = 
+v = 28 , ecount = 0
+  edges = 
+v = 29 , ecount = 0
+  edges = 
+v = 30 , ecount = 0
+  edges = 
+v = 31 , ecount = 0
+  edges = 
+v = 32 , ecount = 0
+  edges = 
+v = 33 , ecount = 0
+  edges = 
+v = 34 , ecount = 0
+  edges = 
+v = 35 , ecount = 0
+  edges = 
+v = 36 , ecount = 0
+  edges = 
+v = 37 , ecount = 0
+  edges = 
+v = 38 , ecount = 0
+  edges = 
+v = 39 , ecount = 0
+  edges = 
+v = 40 , ecount = 0
+  edges = 
+v = 41 , ecount = 0
+  edges = 
+v = 42 , ecount = 0
+  edges = 
+v = 43 , ecount = 0
+  edges = 
+v = 44 , ecount = 0
+  edges = 
+v = 45 , ecount = 0
+  edges = 
+v = 46 , ecount = 0
+  edges = 
+v = 47 , ecount = 0
+  edges = 
+v = 48 , ecount = 0
+  edges = 
+v = 49 , ecount = 0
+  edges = 
+v = 50 , ecount = 0
+  edges = 
+v = 51 , ecount = 0
+  edges = 
+v = 52 , ecount = 0
+  edges = 
+v = 53 , ecount = 0
+  edges = 
+v = 54 , ecount = 0
+  edges = 
+v = 55 , ecount = 0
+  edges = 
+v = 56 , ecount = 0
+  edges = 
+v = 57 , ecount = 0
+  edges = 
+v = 58 , ecount = 0
+  edges = 
+v = 59 , ecount = 0
+  edges = 
+v = 60 , ecount = 0
+  edges = 
+v = 61 , ecount = 0
+  edges = 
+v = 62 , ecount = 0
+  edges = 
+v = 63 , ecount = 0
+  edges = 
+v = 64 , ecount = 0
+  edges = 
+v = 65 , ecount = 0
+  edges = 
+v = 66 , ecount = 0
+  edges = 
+v = 67 , ecount = 0
+  edges = 
+v = 68 , ecount = 0
+  edges = 
+v = 69 , ecount = 0
+  edges = 
+v = 70 , ecount = 0
+  edges = 
+v = 71 , ecount = 0
+  edges = 
+v = 72 , ecount = 0
+  edges = 
+v = 73 , ecount = 0
+  edges = 
+v = 74 , ecount = 0
+  edges = 
+v = 75 , ecount = 0
+  edges = 
+v = 76 , ecount = 0
+  edges = 
+v = 77 , ecount = 0
+  edges = 
+v = 78 , ecount = 0
+  edges = 
+v = 79 , ecount = 0
+  edges = 
+v = 80 , ecount = 0
+  edges = 
+v = 81 , ecount = 0
+  edges = 
+v = 82 , ecount = 0
+  edges = 
+v = 83 , ecount = 0
+  edges = 
+v = 84 , ecount = 0
+  edges = 
+v = 85 , ecount = 0
+  edges = 
+v = 86 , ecount = 0
+  edges = 
+v = 87 , ecount = 0
+  edges = 
+v = 88 , ecount = 0
+  edges = 
+v = 89 , ecount = 0
+  edges = 
+v = 90 , ecount = 0
+  edges = 
+v = 91 , ecount = 0
+  edges = 
+v = 92 , ecount = 0
+  edges = 
+v = 93 , ecount = 0
+  edges = 
+v = 94 , ecount = 0
+  edges = 
+v = 95 , ecount = 0
+  edges = 
+v = 96 , ecount = 0
+  edges = 
+v = 97 , ecount = 0
+  edges = 
+v = 98 , ecount = 0
+  edges = 
+v = 99 , ecount = 0
+  edges = 
+v = 100 , ecount = 0
+  edges = 
+v = 101 , ecount = 0
+  edges = 
+v = 102 , ecount = 0
+  edges = 
+v = 103 , ecount = 0
+  edges = 
+v = 104 , ecount = 0
+  edges = 
+v = 105 , ecount = 0
+  edges = 
+v = 106 , ecount = 0
+  edges = 
+v = 107 , ecount = 0
+  edges = 
+v = 108 , ecount = 0
+  edges = 
+v = 109 , ecount = 0
+  edges = 
+v = 110 , ecount = 0
+  edges = 
+v = 111 , ecount = 17
+  edges =  119,  119,  119,  119,  119,  119,  119,  119,  119,  119,  119,  119,  119,  119,  119,  119,  119, 
+v = 112 , ecount = 0
+  edges = 
+v = 113 , ecount = 0
+  edges = 
+v = 114 , ecount = 0
+  edges = 
+v = 115 , ecount = 0
+  edges = 
+v = 116 , ecount = 0
+  edges = 
+v = 117 , ecount = 0
+  edges = 
+v = 118 , ecount = 0
+  edges = 
+v = 119 , ecount = 17
+  edges =  111,  111,  111,  111,  111,  111,  111,  111,  111,  111,  111,  111,  111,  111,  111,  111,  111, 
+v = 120 , ecount = 0
+  edges = 
+v = 121 , ecount = 0
+  edges = 
+v = 122 , ecount = 0
+  edges = 
+v = 123 , ecount = 0
+  edges = 
+v = 124 , ecount = 0
+  edges = 
+v = 125 , ecount = 0
+  edges = 
+v = 126 , ecount = 0
+  edges = 
+v = 127 , ecount = 0
+  edges = 
+v = 128 , ecount = 0
+  edges = 
+v = 129 , ecount = 0
+  edges = 
+v = 130 , ecount = 0
+  edges = 
+v = 131 , ecount = 0
+  edges = 
+v = 132 , ecount = 0
+  edges = 
+v = 133 , ecount = 0
+  edges = 
+v = 134 , ecount = 0
+  edges = 
+v = 135 , ecount = 0
+  edges = 
+v = 136 , ecount = 0
+  edges = 
+v = 137 , ecount = 0
+  edges = 
+v = 138 , ecount = 0
+  edges = 
+v = 139 , ecount = 0
+  edges = 
+v = 140 , ecount = 0
+  edges = 
+v = 141 , ecount = 0
+  edges = 
+v = 142 , ecount = 0
+  edges = 
+v = 143 , ecount = 0
+  edges = 
+v = 144 , ecount = 0
+  edges = 
+v = 145 , ecount = 0
+  edges = 
+v = 146 , ecount = 0
+  edges = 
+v = 147 , ecount = 0
+  edges = 
+v = 148 , ecount = 0
+  edges = 
+v = 149 , ecount = 0
+  edges = 
+v = 150 , ecount = 0
+  edges = 
+v = 151 , ecount = 0
+  edges = 
+v = 152 , ecount = 0
+  edges = 
+v = 153 , ecount = 0
+  edges = 
+v = 154 , ecount = 0
+  edges = 
+v = 155 , ecount = 0
+  edges = 
+v = 156 , ecount = 0
+  edges = 
+v = 157 , ecount = 0
+  edges = 
+v = 158 , ecount = 0
+  edges = 
+v = 159 , ecount = 0
+  edges = 
+v = 160 , ecount = 0
+  edges = 
+v = 161 , ecount = 0
+  edges = 
+v = 162 , ecount = 0
+  edges = 
+v = 163 , ecount = 0
+  edges = 
+v = 164 , ecount = 0
+  edges = 
+v = 165 , ecount = 0
+  edges = 
+v = 166 , ecount = 0
+  edges = 
+v = 167 , ecount = 0
+  edges = 
+v = 168 , ecount = 0
+  edges = 
+v = 169 , ecount = 0
+  edges = 
+v = 170 , ecount = 0
+  edges = 
+v = 171 , ecount = 0
+  edges = 
+v = 172 , ecount = 0
+  edges = 
+v = 173 , ecount = 0
+  edges = 
+v = 174 , ecount = 0
+  edges = 
+v = 175 , ecount = 0
+  edges = 
+v = 176 , ecount = 0
+  edges = 
+v = 177 , ecount = 0
+  edges = 
+v = 178 , ecount = 0
+  edges = 
+v = 179 , ecount = 0
+  edges = 
+v = 180 , ecount = 0
+  edges = 
+v = 181 , ecount = 0
+  edges = 
+v = 182 , ecount = 0
+  edges = 
+v = 183 , ecount = 0
+  edges = 
+v = 184 , ecount = 0
+  edges = 
+v = 185 , ecount = 0
+  edges = 
+v = 186 , ecount = 0
+  edges = 
+v = 187 , ecount = 0
+  edges = 
+v = 188 , ecount = 0
+  edges = 
+v = 189 , ecount = 0
+  edges = 
+v = 190 , ecount = 0
+  edges = 
+v = 191 , ecount = 0
+  edges = 
+v = 192 , ecount = 0
+  edges = 
+v = 193 , ecount = 0
+  edges = 
+v = 194 , ecount = 0
+  edges = 
+v = 195 , ecount = 0
+  edges = 
+v = 196 , ecount = 0
+  edges = 
+v = 197 , ecount = 0
+  edges = 
+v = 198 , ecount = 0
+  edges = 
+v = 199 , ecount = 0
+  edges = 
+v = 200 , ecount = 0
+  edges = 

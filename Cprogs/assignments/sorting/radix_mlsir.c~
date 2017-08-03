@@ -1,0 +1,119 @@
+#include <stdio.h>
+#include "malloc.h"
+#include "stdlib.h"
+#include <sys/timeb.h>
+
+void radix(int *, int, int);
+int main (argc, argv)
+int argc;
+char **argv;
+{
+   int i,j,k,temp;
+   int *arr, *auxArr;
+   int n, numErr,dummy, negFlag=0, nbits = 16;
+   FILE *fp;
+   struct timeb start, end;
+
+   if (argc >= 2) {
+      fp = fopen(argv[1],"r");
+      if (argc == 3) {
+         nbits = (int) atoi(argv[2]);
+      } else { 
+         nbits = 16;
+      }
+   }
+   else {
+       (void) printf("Usage: rad <filename>\n");
+       return(1);
+   }
+   if (!fp) {
+      (void) printf("Unable to open file %s\n", argv[1]);
+      return(2);
+   }
+   dummy = fscanf(fp, "%d", &n);   
+   arr = (int *) malloc(n * sizeof(int));
+   for(i=0;i<n;i++) {
+      dummy = fscanf(fp, "%d", &arr[i]);
+      if(arr[i] < 0) {
+         negFlag = 1;
+      }
+   }
+   fclose(fp);
+   ftime(&start);
+   radix(arr,n, nbits);
+   if(negFlag == 1) {
+      auxArr = (int *)malloc(n*sizeof(int)); 
+      i=0;
+      while(arr[i] >= 0) {
+         auxArr[i] = arr[i];
+         i++;
+      }
+      for(j = i, k = 0; j < n; j++) {
+         arr[k] = arr[j];
+         k++;
+      }
+      for(j = k, i = 0; j < n; j++) {
+         arr[j] = auxArr[i];
+         i++;
+      }
+   }
+   ftime(&end);
+   printf("Time elapsed = %ld\n", (end.time - start.time)*1000 + (end.millitm - start.millitm));
+
+   numErr = 0;
+   for(i=0;i<(n-1);i++)
+   {
+      if(arr[i] > arr[i+1])
+      {
+         printf("%d %d %d %d\n",n, i, arr[i], arr[i+1]);
+         numErr++;
+      }
+   }
+   if(numErr > 0) {
+      (void) printf("Number of errors = %d\n", numErr);
+      return(1);
+   }
+   return(0);
+} 
+
+void radix(int *ray, int sz, int bits)
+{
+   int i, j, flag, right, k, jj;
+   int *counter;
+   int *auxArr, *arr1, *arr2;
+   int place, index, tot, maxVal, nPasses, shift;
+   maxVal = (1<<bits)-1; nPasses = 32/bits;
+   flag = maxVal;
+   right = 0;
+   shift = bits;
+   auxArr = (int *)malloc(sz*sizeof(int));
+   counter = (int *)malloc((maxVal+1)*sizeof(int));
+   arr1 = ray; 
+   arr2 = auxArr;
+   for (jj = 0; jj < nPasses; jj++) {
+      for (i = 0; i<= maxVal; i++) {
+         counter[i] = 0;
+      }
+      for (i = 0; i< sz; i++)
+         counter[(arr1[i] >> right) & flag]++;
+
+      for (j = 1; j <= maxVal; j++)
+         counter[j] += counter[j-1];
+
+      for (i = sz-1; i>= 0; i--) {
+         place = (arr1[i] >> right) & flag;
+         index = counter[place]--;
+         arr2[index-1] = arr1[i];
+      }
+      right += shift;
+      if(jj % 2 == 0) {
+         arr1 = auxArr; arr2 = ray;
+      } else {
+         arr2 = auxArr; arr1 = ray;
+      }
+      //for (i = 0; i< sz; i++)
+      //   ray[i] = auxArr[i];
+   }
+   free(auxArr);
+   free(counter);
+}

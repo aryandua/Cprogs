@@ -1,0 +1,82 @@
+#include <stdio.h>
+#include <stdlib.h>
+#define S1 500
+#define S2 2184
+struct edge {
+  int vertex1;
+  int vertex2;
+  int length;
+};
+typedef struct edge t_edge;
+t_edge tree[S2];
+int discovered[S2];
+int v_discovered[S1];
+int main() {
+  read();
+  init();
+  prim();
+}
+int init() {
+  int i;
+  for( i = 0; i < S2; i++) {
+    discovered[i] = 0;
+  }
+}
+
+int read() {
+  int i;
+  int check1, check2;
+  FILE *fptr;
+  fptr = fopen("./a.txt", "r");
+  fscanf(fptr, "%d" ,&check1);
+  fscanf(fptr, "%d\n" ,&check2);
+  if(check1!=S1 || check2!=S2) {
+    printf("ERROR\n");
+    exit(0);
+  }
+  for( i = 0; i < S2; i++) {
+    fscanf(fptr, " %d",&tree[i].vertex1);
+    fscanf(fptr, " %d",&tree[i].vertex2);
+    fscanf(fptr, " %d\n",&tree[i].length);
+  }
+  return;
+}
+
+int print() {
+  int i;
+  for(i = 0; i < S2; i++) {
+    printf("%d, %d, %d\n",tree[i].vertex1,tree[i].vertex2,tree[i].length);
+  }
+}
+
+int prim() {
+  int i, total=0;
+  int min, position;
+  int j,h;
+  int v1,v2;
+  int first=1;
+  for(h=0;h<S1-1;h++) {
+    min=10000;
+    for(i = 0; i < S2; i++) {
+      v1=tree[i].vertex1-1;
+      v2=tree[i].vertex2-1;
+      if((tree[i].length < min) && (discovered[i] == 0)) {
+	if(v_discovered[v1] == 0 || v_discovered[v2] == 0) {
+	  if((v_discovered[v1] || v_discovered[v2]) || first) {
+	   min = tree[i].length;
+	   position=i;
+	  }
+	}
+      }
+   }
+    if(min != 10000) {
+      discovered[position]=1;
+      v_discovered[tree[position].vertex1-1]=1;
+      v_discovered[tree[position].vertex2-1]=1;
+      total += min;
+      printf("added edge going from %d to %d with length %d\n",tree[position].vertex1, tree[position].vertex2,tree[position].length);
+    }
+     if(first) first=0;
+  }
+   printf("total = %d\n",total);
+}

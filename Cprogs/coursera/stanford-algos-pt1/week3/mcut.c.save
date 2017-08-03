@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+ FILE* file = fopen (file_name, "r");
+  int i = 0;
+
+  fscanf (file, "%d", &i);    
+  while (!feof (file))
+    {  
+      printf ("%d ", i);
+      fscanf (file, "%d", &intarr[i]);  fclose (file);  
+}

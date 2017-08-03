@@ -1,0 +1,27 @@
+Quit
+Mark set
+Mark deactivated
+Mark activated
+Type y, n, ! or SPC (the space bar): 
+Type C-x 1 to delete the help window, C-M-v to scroll help.
+
+byte-code: Beginning of buffer [6 times]
+scroll-down-command: Beginning of buffer [5 times]
+byte-code: End of buffer [4 times]
+
+help-follow: No cross-reference here
+byte-code: Beginning of buffer [2 times]
+scroll-up-command: End of buffer [2 times]
+byte-code: Beginning of buffer [5 times]
+Type C-x 1 to delete the help window, C-M-v to scroll help.
+Mark set
+Mark deactivated
+Mark activated
+Mark deactivated
+Mark activated [3 times]
+Mark set [8 times]
+Undo! [4 times]
+(No files need saving)
+Wrote /home/aryan/Desktop/Cprogs/TUTORIAL
+File `/home/aryan/Desktop/Cprogs/TUTORIAL' exists; overwrite? (y or n)  y
+A buffer is visiting /home/aryan/Desktop/Cprogs/TUTORIAL; proceed? (y or n)  y

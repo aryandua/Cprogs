@@ -1,0 +1,20 @@
+To use this 2-sat solver, you must convert your problem from the following format:
+
+(A or B) & (~A or B) & (~B or ~C)
+
+to this format:
+
+3 (number of clauses)
+
+1 2
+-1 2
+-2 -3
+
+--------------------------------------------------------------------------------------------------------------
+so for every variable assign a number. To its negation, the inverse of that number.
+--------------------------------------------------------------------------------------------------------------
+
+
+Then run the command make run file=<filname> size=<size>
+
+the programs will output either SAT or UNSAT

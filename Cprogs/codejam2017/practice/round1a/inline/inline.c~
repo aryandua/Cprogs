@@ -1,0 +1,53 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#define T 50
+#define SIZEN 10
+#define RINP ((SIZEN * 2) - 1)
+#define CINP SIZEN
+#define RC RINP*CINP
+int main() {
+  read_it();
+}
+
+int read_it() {
+  int i,j,n,s;
+  int rtc;
+  int val[RC];
+  int odd[RC];
+  int ans[CINP];
+  int anscount = 0;
+  FILE *fptr;
+  fptr = fopen("./a.txt", "r");
+  FILE *fptr2;
+  fptr2 = fopen("./output.txt", "w");
+  int check;
+  fscanf(fptr, "%d", &check);
+  if(check != T) {
+    printf("ERROR\n");
+    exit(1);
+  }
+  for(i=0;i<T;i++) {
+    anscount = 0;
+    fscanf(fptr, "%d",&n);
+    rtc = n*((n*2)-1);
+    for(j=0;j<rtc;j++) 
+      odd[j] = 0;
+    for(j=0;j<(rtc);j++) {
+      fscanf(fptr, "%d",&val[j]);
+      odd[(val[j]-1)] = !odd[val[j]-1];
+    }
+    for(j=0;j<(rtc);j++) {
+      if(odd[j]) {
+	ans[anscount] =j+1;
+	anscount++;
+      }
+    }
+    qsort(ans,n,sizeof(int));
+    fprintf(fptr2, "Case #%d: ",i+1);
+    for(j=0;j<n;j++) {
+      fprintf(fptr2, "%d ",ans[j]);
+    }
+    fprintf(fptr2,"\n");
+  }
+}

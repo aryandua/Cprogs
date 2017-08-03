@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+ long long i = 811188;
+ long long j = 20254;
+ double ans;
+ ans = i * j;
+ ans *= 2*M_PI;
+ printf ("ans = %f\n",ans);
+}
+

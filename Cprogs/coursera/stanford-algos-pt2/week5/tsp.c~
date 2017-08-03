@@ -1,0 +1,290 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+ 
+/*  #define N 4
+    #define NCN2 3
+ 
+           ^^^^^
+   These are now defined from command line using -D option in gcc
+*/
+ 
+#define INFINITE 1000000000 //very big number (altho very small if compared to the real infinite ;)
+#define getvals(x,y) (x*N)+y
+void combinationUtil(int arr[],int n,int r,int index,int data[],int i);
+void printCombination(int arr[], int n, int r);
+int readfile();
+int calculatesubsets();
+int tsp();
+int getdistances();
+long long fact(int x);
+ 
+struct city {
+  int vno;
+  float x;
+  float y;
+};
+ 
+typedef struct city city_t;
+ 
+city_t cities[N];
+char subs1[NCN2][N];
+char subs2[NCN2][N];
+ 
+int A1[NCN2][N];
+int A2[NCN2][N];
+ 
+int dists[N][N];
+ 
+int count = 0;
+int count2 = 0;
+ 
+char *currsubs;
+char *oldsubs;
+ 
+int oldsubsum[NCN2];
+ 
+int main(int argc, char *argv[]) {
+  FILE *fptr;
+  fptr = fopen(argv[1], "r");
+  readfile(fptr);
+  printf("Done Reading!\n");
+  getdistances();
+  printf("Calculated all distances\n");
+  printf("Running tsp subroutine\n");
+  tsp();
+}
+ 
+int tsp() {
+  int ncm;
+  int *currA;
+  int *oldA;
+  int arr[N];
+  int lookingfor[N];
+  float min = INFINITE;
+  int i,j,k,x,y,m,valk,valj;
+  int lookingforcount, lookingforsum, smj, rightone, startk;
+ 
+  for(i=0;i<N;i++)
+    arr[i] = i+1;
+ 
+  currsubs = &subs1[0][0];
+  printCombination(arr,N,1);
+  currA = &A1[0][0];
+  A1[0][0]=0;
+ for(m=2;m<=N;m++) {
+ 
+   ncm=ncr(N-1,m-1);
+ 
+   for(i=0;i<NCN2;i++)
+     oldsubsum[i]=0;
+ 
+   printf("Current size of subsets: %d\n",m);
+    oldsubs=currsubs;
+    oldA=currA;
+ 
+    if(currA == &A1[0][0])
+      currA = &A2[0][0];
+    else if(currA == &A2[0][0])
+      currA = &A1[0][0];
+    else
+      printf("ERROR\n");
+ 
+    if(currsubs == &subs1[0][0])
+      currsubs = &subs2[0][0];
+    else if(currsubs == &subs2[0][0])
+      currsubs = &subs1[0][0];
+    else
+      printf("ERROR\n");
+ 
+    for(i=0;i<count;i++) {
+      for(j=0;j<N;j++) {
+                currsubs[getvals(i,j)] = 0;
+      }
+    }
+ 
+ 
+    fill_oldsubsum(m);
+    printCombination(arr,N,m);
+    for(i=0;i<ncm;i++) {
+      min=INFINITE;
+      for(j=0;j<m;j++) {
+                lookingforsum=0;
+                if( currsubs[getvals(i,j)] == 0)
+                  break;
+                if(currsubs[(getvals(i,j))] != 1) {
+ 
+                  //Calculate S-J
+                  lookingforcount=0;
+                  for(k=0;k<m;k++) {
+                    if( currsubs[getvals(i,k)] == 0)
+                      break;
+                    if(k != j) {
+                      lookingfor[lookingforcount] = currsubs[getvals(i,k)];
+                      lookingforsum += lookingfor[lookingforcount];
+                      lookingforcount++;
+                    }
+                  }
+               
+                  /* for(x=0;x<NCN2;x++) { */
+                  /*   rightone=1; */
+                  /*   if(oldsubsum[x] == lookingforsum) { */
+                  /*     for(y=0;y<lookingforcount;y++) { */
+                  /*               if( oldsubs[getvals(x,y)] != lookingfor[y]) { */
+                  /*                 rightone = 0; */
+                  /*                 break; */
+                  /*               } */
+                  /*     } */
+                  /*     if(rightone) { // y=Lookingforcount (index) */
+                  /*               smj = x; */
+                  /*               break; */
+                  /*     } */
+                  /*   } */
+                  /* } */
+		  
+                  //Go through all K's in S
+                  if(m==2)
+                    startk=0;
+                  else
+                    startk=1;
+ 
+                  min=INFINITE;
+                  for(k=startk;k<m;k++) {
+                    if( currsubs[getvals(i,k)] == 0) //We are done with this subset
+                      break;
+                    if(k != j) { // k=j is not a relevant choice of K
+                      valk =  currsubs[getvals(i,k)];
+                      valj =  currsubs[getvals(i,j)];
+                      if((( oldA[getvals(smj,valk-1)]) + dists[valk-1][valj-1]) < min)  { //This means that this is the best choice for k yet...
+                                min =  oldA[getvals(smj,valk-1)] + dists[valk-1][valj-1];
+                      }
+                    }
+                  }
+                  currA[getvals(i,valj-1)] = min;
+                }
+      }
+    }
+    min = INFINITE;
+}
+for(i=1;i<N;i++) {
+   if((currA[getvals(0,i)]+dists[i][0]) < min)
+     min = (currA[getvals(0,i)]+dists[i][0]);
+}
+printf("ANSWER IS %f\n",min);
+}
+ 
+ 
+int ncr(int n, int r) {
+  int i;
+  long long numer=1;
+  long long denom;
+ 
+  if(r > (n-r)) {
+    for(i=(r+1);i<=n;i++)
+      numer*=i;
+    denom=fact(n-r);
+  }
+  else {
+    for(i=((n-r)+1);i<=n;i++)
+      numer*=i;
+    denom=fact(r);
+  }
+  int ans=numer/denom;
+  return ans;
+}
+ 
+long long fact(int x) {
+  int i;
+  long long ans=1;
+  for(i=2;i<=x;i++) {
+    ans*= i;
+  }
+  return ans;
+}
+ 
+int fill_oldsubsum(int m) {
+  int i;
+  int j;
+ 
+  for(i=0;i<NCN2;i++) {
+    for(j=0;j<m;j++) {
+      oldsubsum[i] += oldsubs[getvals(i,j)];
+    }
+  }
+}
+ 
+int readfile(FILE *fptr) {
+  if(fptr == NULL) {
+    printf("INVALID FILE\n");
+    exit(1);
+  }
+  int i;
+  int check;
+  fscanf(fptr, "%d",&check);
+  if(check != N) {
+    printf("ERROR, N is incorrect\n");
+    exit(1);
+  }
+  for(i=0;i<N;i++) {
+    fscanf(fptr, "%f",&cities[i].x);
+    fscanf(fptr, "%f",&cities[i].y);
+    cities[i].vno = i+1;
+  }
+}
+ 
+ 
+void printCombination(int arr[], int n, int r) {
+    int data[N];
+    count = 0;
+    combinationUtil(arr, n, r, 0, data, 0);
+}
+void combinationUtil(int arr[], int n, int r, int index, int data[], int i) {
+  int j;
+  if (index == r) {
+      for (j=0; j<r; j++) {
+                if(j%r == 0 && data[j] != 1) {
+                  return;
+                }
+                else {
+                  if(j!=0) {
+                    count2++;
+                    currsubs[getvals(count,count2)]=data[j];
+                  }
+                  else {
+                    currsubs[getvals(count,0)] = data[j];
+                  }
+                }
+      }
+      count2=0;
+      count++;
+      //printf("%d\n",count);
+      return;
+  }
+ 
+    if(i >= n)
+        return;
+   
+    data[index] = arr[i];
+    combinationUtil(arr, n, r, index+1, data, i+1);
+   
+    combinationUtil(arr, n, r, index, data, i+1);
+}
+ 
+int  getdistances() {
+  double x1,y1,x2,y2,f1,f2,ans;
+  int a,b;
+  for(a=0;a<N;a++) {
+    for(b=0;b<N;b++) {
+      x1 = cities[a].x;
+      y1 = cities[a].y;
+      x2 = cities[b].x;
+      y2 = cities[b].y;
+     
+      f1 = pow(x1-x2,2);
+      f2 = pow(y1-y2,2);
+      ans=sqrt(f1+f2);
+     
+      dists[a][b] = ans;
+    }
+  }
+}

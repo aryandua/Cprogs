@@ -1,0 +1,34 @@
+clean:
+	rm -rf bin/*
+
+build:
+	gcc $(FLAG) -D $(MODE) -D SIZE=$(SIZE) -o bin/$(MODE) qsort.c
+
+build_first:
+	echo $(SIZE)
+	gcc -$(FLAG) -D FIRST -D SIZE=$(SIZE) -o bin/first qsort.c
+build_last:
+	gcc -D FIRST -D SIZE=$(SIZE) -o bin/last qsort.c
+build_avg:
+	gcc -D FIRST -D SIZE=$(SIZE) -o bin/avg qsort.c
+
+build_debug_first:
+	gcc -g -D FIRST -D SIZE=$(SIZE) -o bin/first qsort.c
+build_debug_last:
+	gcc -g -D FIRST -D SIZE=$(SIZE) -o bin/last qsort.c
+build_debug_avg:
+	gcc -g -D FIRST -D SIZE=$(SIZE) -o bin/avg qsort.c
+
+build_all: build_first build_last build_avg
+	echo "Build Done"
+
+build_debug_all: build_debug_first build_debug_last build_debug_avg
+	echo "Debug Build Done"
+
+run_first:
+	./bin/FIRST
+run_last:
+	./bin/LAST
+run_avg:
+	./bin/AVG
+

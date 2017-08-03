@@ -1,0 +1,5 @@
+rm -rf ./firstg ./lastg ./avgg
+gcc -g -D FIRST -D SIZE=10000 -o firstg qsort.c 
+gcc -g -D LAST -D SIZE=10000 -o lastg qsort.c 
+gcc -g -D AVG -D SIZE=10000 -o avgg qsort.c
+
