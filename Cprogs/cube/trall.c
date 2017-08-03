@@ -10,7 +10,7 @@ int main() {
     for(j=0;j<SIZE;j++) {
 
       if(cubesolved()) {
-	break;
+	
       }
       else {
 	hi();
