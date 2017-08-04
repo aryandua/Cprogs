@@ -1,19 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define SIZE 200000
-#define BTS 24
+
 int found[SIZE];
 int foundcount;
 int clusternum[SIZE];
 int ccn_count;
 int changeclusternum[SIZE];
 int tempk, tempj;
-int main() {
+
+int main(int argc, char *argv[]) {
   int points[SIZE];
   int clustercount = 0;
   int clusterloopcount = 0;
   FILE *fptr;
-  fptr = fopen("a.txt", "r");
+
+  fptr = fopen(argv[1], "r");
+
   int i,j,k,readbit,loopstop, printon;
 
   //initializing loop  
